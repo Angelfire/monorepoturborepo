@@ -1,33 +1,24 @@
-# `Turborepo` Vite starter
+# `Turborepo Starter`
 
-This is a community-maintained example. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
+This is a starter I built combining the power of Turborepo, Vite, React, TypeScript, TailwindCSS 4.0, and Shadcn/ui. It’s designed to help you kickstart a modern monorepo setup quickly and efficiently.
 
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e with-vite
-```
-
-## What's inside?
-
-This Turborepo includes the following packages and apps:
+## What's Included?
+This Turborepo starter comes with the following apps and packages:
 
 ### Apps and Packages
+- docs: A basic Vite app with React and TypeScript, perfect for documentation.
+- web: The main Vite app with React and TypeScript.
+- @repo/ui: A shared component and utility library built with Shadcn/ui and TailwindCSS 4.0.
+- @repo/eslint-config: Shared ESLint configurations for consistent code quality.
+- @repo/typescript-config: Shared tsconfig.json configurations used across all apps and packages.
 
-- `docs`: a vanilla [vite](https://vitejs.dev) ts app
-- `web`: another vanilla [vite](https://vitejs.dev) ts app
-- `@repo/ui`: a stub component & utility library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: shared `eslint` configurations
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+All code is written entirely in TypeScript.
 
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
+## Preconfigured Tools
+This starter includes several tools already set up for you:
 
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- TypeScript for static type checking.
+- ESLint for linting and maintaining code quality.
+- Prettier for automatic code formatting.
+- TailwindCSS 4.0 for utility-first CSS styling.
+- Shadcn/ui for modern, accessible, and customizable components.
