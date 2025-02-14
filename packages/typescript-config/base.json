@@ -13,6 +13,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
+    "lib": ["es2022", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "strict": true
   },
